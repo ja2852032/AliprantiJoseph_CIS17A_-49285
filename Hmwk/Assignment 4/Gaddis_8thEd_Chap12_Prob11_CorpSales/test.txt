@@ -1,0 +1,24 @@
+East
+Quarter 1: $45.00
+Quarter 2: $43.00
+Quarter 3: $55.00
+Quarter 4: $44.00
+
+West
+Quarter 1: $22.00
+Quarter 2: $33.00
+Quarter 3: $44.00
+Quarter 4: $55.00
+
+North
+Quarter 1: $54.00
+Quarter 2: $43.00
+Quarter 3: $32.00
+Quarter 4: $65.00
+
+South
+Quarter 1: $75.00
+Quarter 2: $25.00
+Quarter 3: $86.00
+Quarter 4: $33.00
+
