@@ -1,0 +1,336 @@
+\hypertarget{main_8cpp}{}\doxysection{Alipranti\+Joseph\+\_\+\+C\+I\+S17\+A\+\_\+49285-\/master/\+Alipranti\+Joseph\+\_\+\+C\+I\+S17\+A\+\_\+49285-\/master/\+Project/\+Project 2/\+Project2\+\_\+\+Battleship\+\_\+\+Final\+Version/main.cpp File Reference}
+\label{main_8cpp}\index{AliprantiJoseph\_CIS17A\_49285-\/master/AliprantiJoseph\_CIS17A\_49285-\/master/Project/Project 2/Project2\_Battleship\_FinalVersion/main.cpp@{AliprantiJoseph\_CIS17A\_49285-\/master/AliprantiJoseph\_CIS17A\_49285-\/master/Project/Project 2/Project2\_Battleship\_FinalVersion/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$cctype$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Top\+Row.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Com\+Guess.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Usr\+Ships.\+h\char`\"{}}\newline
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7}{Column}} \{ \newline
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a42a4ade1acd55a49164099104990e09f}{A}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a3f2a77ecd272aa6d6b5902faa5e5fc68}{B}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a739ce3f516592d245d16fd8a3893472c}{C}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a77a6b11f9898c052926f1d49765861e8}{D}}, 
+\newline
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ab199e021998d49b1f09338d8b9b18ecb}{E}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7af382a63cc3d6491bf26b59e66f46826d}{F}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a2fe993340f6abb2234e543cd427df70b}{G}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a5008b1179f399a2273fd3f6a7fc3b292}{H}}, 
+\newline
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ad091b8e376f7cf432dc367e1eda65e85}{I}}, 
+\mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a03605500b0c55f3d95874e8edfcf4e30}{J}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$ \mbox{\hyperlink{main_8cpp_aeb8d0f5f14d37efbb1e238f174f663b1}{fill\+Top}} (int)
+\item 
+void \mbox{\hyperlink{main_8cpp_aecdbedb52551e0c92cdadf27120d9b2c}{mk\+Grids}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int)
+\item 
+void \mbox{\hyperlink{main_8cpp_a36ad170338d7feb540a9ce2f1f8bb1b0}{intro}} ()
+\item 
+void \mbox{\hyperlink{main_8cpp_aa98d8009b37b7abd12da0cac2503b2bb}{prn\+Grid}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, \mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$, const int)
+\item 
+void \mbox{\hyperlink{main_8cpp_a376d9830a8eff184cf17232741db53da}{pl\+Ships}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int, ifstream \&, \mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&)
+\item 
+int \mbox{\hyperlink{main_8cpp_aed861a47dd548e1868eed87cffbe2639}{conv}} (char \&)
+\item 
+char \mbox{\hyperlink{main_8cpp_aec834613301366ccf1f03ad81a07fd43}{rev\+Conv}} (int \&)
+\item 
+int \mbox{\hyperlink{main_8cpp_a20c5e0d2bbf32c92efc6b6402025599f}{match}} (const int\mbox{[}$\,$\mbox{]}, const int, const int)
+\item 
+int \mbox{\hyperlink{main_8cpp_a9411f631be580921d46eac94aeb59996}{match2}} (const char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int, const int, const int)
+\item 
+void \mbox{\hyperlink{main_8cpp_aeca35ded93a09dcdd7e0c7efa5c5e169}{play}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, \mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$, const int, \mbox{\hyperlink{class_com_guess}{Com\+Guess}}, \mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&)
+\item 
+void \mbox{\hyperlink{main_8cpp_af52bf9a4611fc2093e0ca04233fe5a3b}{u\+Turn}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, \mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&)
+\item 
+void \mbox{\hyperlink{main_8cpp_ab3d147f3aca89c02be15c4268361c7ff}{c\+Turn}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, \mbox{\hyperlink{class_com_guess}{Com\+Guess}} \&, \mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&)
+\item 
+int \mbox{\hyperlink{main_8cpp_aa66cd61443bd30296e8f5a01be677eca}{hit\+Or\+No}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int, const int)
+\item 
+int \mbox{\hyperlink{main_8cpp_a005263de868a86f57ee2ff44acaa9582}{re\+Guess}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int, const int)
+\item 
+int \mbox{\hyperlink{main_8cpp_a7c50c75d3129a34762885de0135bbfbe}{chck\+End}} (char\mbox{[}$\,$\mbox{]}\mbox{[}\mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}}\mbox{]}, const int)
+\item 
+int \mbox{\hyperlink{main_8cpp_ad93a258da597ca0391cc8f184399931e}{sunk}} (int, \mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&)
+\item 
+int \mbox{\hyperlink{main_8cpp_a013320ac73ccff4b881c0bf63988bd08}{checkR}} (int)
+\item 
+void \mbox{\hyperlink{main_8cpp_ad7dfae81844ecd3dafbe8c34c7686adb}{tot\+Left}} (const \mbox{\hyperlink{class_ships}{Ships}} \&)
+\item 
+int \mbox{\hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}{C\+O\+LS}} = 11
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7}} 
+\index{main.cpp@{main.cpp}!Column@{Column}}
+\index{Column@{Column}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{Column}{Column}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7}{Column}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A@{A}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!A@{A}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a42a4ade1acd55a49164099104990e09f}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a42a4ade1acd55a49164099104990e09f}} 
+A&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{B@{B}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!B@{B}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a3f2a77ecd272aa6d6b5902faa5e5fc68}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a3f2a77ecd272aa6d6b5902faa5e5fc68}} 
+B&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{C@{C}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!C@{C}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a739ce3f516592d245d16fd8a3893472c}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a739ce3f516592d245d16fd8a3893472c}} 
+C&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{D@{D}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!D@{D}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a77a6b11f9898c052926f1d49765861e8}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a77a6b11f9898c052926f1d49765861e8}} 
+D&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{E@{E}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!E@{E}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ab199e021998d49b1f09338d8b9b18ecb}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ab199e021998d49b1f09338d8b9b18ecb}} 
+E&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{F@{F}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!F@{F}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7af382a63cc3d6491bf26b59e66f46826d}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7af382a63cc3d6491bf26b59e66f46826d}} 
+F&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{G@{G}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!G@{G}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a2fe993340f6abb2234e543cd427df70b}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a2fe993340f6abb2234e543cd427df70b}} 
+G&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{H@{H}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!H@{H}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a5008b1179f399a2273fd3f6a7fc3b292}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a5008b1179f399a2273fd3f6a7fc3b292}} 
+H&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I@{I}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!I@{I}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ad091b8e376f7cf432dc367e1eda65e85}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7ad091b8e376f7cf432dc367e1eda65e85}} 
+I&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J@{J}!main.cpp@{main.cpp}}\index{main.cpp@{main.cpp}!J@{J}}}\mbox{\Hypertarget{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a03605500b0c55f3d95874e8edfcf4e30}\label{main_8cpp_aed99fd0296a7a13662fc7311ccf7b5d7a03605500b0c55f3d95874e8edfcf4e30}} 
+J&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 31 of file main.\+cpp.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a7c50c75d3129a34762885de0135bbfbe}\label{main_8cpp_a7c50c75d3129a34762885de0135bbfbe}} 
+\index{main.cpp@{main.cpp}!chckEnd@{chckEnd}}
+\index{chckEnd@{chckEnd}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{chckEnd()}{chckEnd()}}
+{\footnotesize\ttfamily int chck\+End (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{rows }\end{DoxyParamCaption})}
+
+
+
+Definition at line 508 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a013320ac73ccff4b881c0bf63988bd08}\label{main_8cpp_a013320ac73ccff4b881c0bf63988bd08}} 
+\index{main.cpp@{main.cpp}!checkR@{checkR}}
+\index{checkR@{checkR}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{checkR()}{checkR()}}
+{\footnotesize\ttfamily int checkR (\begin{DoxyParamCaption}\item[{int}]{r }\end{DoxyParamCaption})}
+
+
+
+Definition at line 528 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aed861a47dd548e1868eed87cffbe2639}\label{main_8cpp_aed861a47dd548e1868eed87cffbe2639}} 
+\index{main.cpp@{main.cpp}!conv@{conv}}
+\index{conv@{conv}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{conv()}{conv()}}
+{\footnotesize\ttfamily int conv (\begin{DoxyParamCaption}\item[{char \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 249 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ab3d147f3aca89c02be15c4268361c7ff}\label{main_8cpp_ab3d147f3aca89c02be15c4268361c7ff}} 
+\index{main.cpp@{main.cpp}!cTurn@{cTurn}}
+\index{cTurn@{cTurn}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{cTurn()}{cTurn()}}
+{\footnotesize\ttfamily void c\+Turn (\begin{DoxyParamCaption}\item[{char}]{u\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{char}]{ct\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{\mbox{\hyperlink{class_com_guess}{Com\+Guess}} \&}]{cmptr,  }\item[{\mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 403 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aeb8d0f5f14d37efbb1e238f174f663b1}\label{main_8cpp_aeb8d0f5f14d37efbb1e238f174f663b1}} 
+\index{main.cpp@{main.cpp}!fillTop@{fillTop}}
+\index{fillTop@{fillTop}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{fillTop()}{fillTop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$ fill\+Top (\begin{DoxyParamCaption}\item[{int}]{max }\end{DoxyParamCaption})}
+
+
+
+Definition at line 110 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aa66cd61443bd30296e8f5a01be677eca}\label{main_8cpp_aa66cd61443bd30296e8f5a01be677eca}} 
+\index{main.cpp@{main.cpp}!hitOrNo@{hitOrNo}}
+\index{hitOrNo@{hitOrNo}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{hitOrNo()}{hitOrNo()}}
+{\footnotesize\ttfamily int hit\+Or\+No (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{row,  }\item[{const int}]{col }\end{DoxyParamCaption})}
+
+
+
+Definition at line 491 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a36ad170338d7feb540a9ce2f1f8bb1b0}\label{main_8cpp_a36ad170338d7feb540a9ce2f1f8bb1b0}} 
+\index{main.cpp@{main.cpp}!intro@{intro}}
+\index{intro@{intro}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{intro()}{intro()}}
+{\footnotesize\ttfamily void intro (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 141 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a20c5e0d2bbf32c92efc6b6402025599f}\label{main_8cpp_a20c5e0d2bbf32c92efc6b6402025599f}} 
+\index{main.cpp@{main.cpp}!match@{match}}
+\index{match@{match}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{match()}{match()}}
+{\footnotesize\ttfamily int match (\begin{DoxyParamCaption}\item[{const int}]{array\mbox{[}$\,$\mbox{]},  }\item[{const int}]{tot,  }\item[{const int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definition at line 261 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a9411f631be580921d46eac94aeb59996}\label{main_8cpp_a9411f631be580921d46eac94aeb59996}} 
+\index{main.cpp@{main.cpp}!match2@{match2}}
+\index{match2@{match2}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{match2()}{match2()}}
+{\footnotesize\ttfamily int match2 (\begin{DoxyParamCaption}\item[{const char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{max,  }\item[{const int}]{r,  }\item[{const int}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 270 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aecdbedb52551e0c92cdadf27120d9b2c}\label{main_8cpp_aecdbedb52551e0c92cdadf27120d9b2c}} 
+\index{main.cpp@{main.cpp}!mkGrids@{mkGrids}}
+\index{mkGrids@{mkGrids}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mkGrids()}{mkGrids()}}
+{\footnotesize\ttfamily void mk\+Grids (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{rows }\end{DoxyParamCaption})}
+
+
+
+Definition at line 129 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aeca35ded93a09dcdd7e0c7efa5c5e169}\label{main_8cpp_aeca35ded93a09dcdd7e0c7efa5c5e169}} 
+\index{main.cpp@{main.cpp}!play@{play}}
+\index{play@{play}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{play()}{play()}}
+{\footnotesize\ttfamily void play (\begin{DoxyParamCaption}\item[{char}]{u\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{char}]{t\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{char}]{c\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{char}]{ct\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{\mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$}]{top\+Arr,  }\item[{const int}]{rows,  }\item[{\mbox{\hyperlink{class_com_guess}{Com\+Guess}}}]{cmptr,  }\item[{\mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 281 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a376d9830a8eff184cf17232741db53da}\label{main_8cpp_a376d9830a8eff184cf17232741db53da}} 
+\index{main.cpp@{main.cpp}!plShips@{plShips}}
+\index{plShips@{plShips}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{plShips()}{plShips()}}
+{\footnotesize\ttfamily void pl\+Ships (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{rows,  }\item[{ifstream \&}]{file,  }\item[{\mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&}]{record }\end{DoxyParamCaption})}
+
+
+
+Definition at line 183 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aa98d8009b37b7abd12da0cac2503b2bb}\label{main_8cpp_aa98d8009b37b7abd12da0cac2503b2bb}} 
+\index{main.cpp@{main.cpp}!prnGrid@{prnGrid}}
+\index{prnGrid@{prnGrid}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{prnGrid()}{prnGrid()}}
+{\footnotesize\ttfamily void prn\+Grid (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{\mbox{\hyperlink{classtop_row}{top\+Row}} $\ast$}]{arr,  }\item[{const int}]{rows }\end{DoxyParamCaption})}
+
+
+
+Definition at line 169 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a005263de868a86f57ee2ff44acaa9582}\label{main_8cpp_a005263de868a86f57ee2ff44acaa9582}} 
+\index{main.cpp@{main.cpp}!reGuess@{reGuess}}
+\index{reGuess@{reGuess}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{reGuess()}{reGuess()}}
+{\footnotesize\ttfamily int re\+Guess (\begin{DoxyParamCaption}\item[{char}]{grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{const int}]{r,  }\item[{const int}]{c }\end{DoxyParamCaption})}
+
+
+
+Definition at line 501 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aec834613301366ccf1f03ad81a07fd43}\label{main_8cpp_aec834613301366ccf1f03ad81a07fd43}} 
+\index{main.cpp@{main.cpp}!revConv@{revConv}}
+\index{revConv@{revConv}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{revConv()}{revConv()}}
+{\footnotesize\ttfamily char rev\+Conv (\begin{DoxyParamCaption}\item[{int \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 255 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ad93a258da597ca0391cc8f184399931e}\label{main_8cpp_ad93a258da597ca0391cc8f184399931e}} 
+\index{main.cpp@{main.cpp}!sunk@{sunk}}
+\index{sunk@{sunk}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{sunk()}{sunk()}}
+{\footnotesize\ttfamily int sunk (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{\mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 520 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ad7dfae81844ecd3dafbe8c34c7686adb}\label{main_8cpp_ad7dfae81844ecd3dafbe8c34c7686adb}} 
+\index{main.cpp@{main.cpp}!totLeft@{totLeft}}
+\index{totLeft@{totLeft}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{totLeft()}{totLeft()}}
+{\footnotesize\ttfamily void tot\+Left (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_ships}{Ships}} \&}]{n }\end{DoxyParamCaption})}
+
+
+
+Definition at line 539 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_af52bf9a4611fc2093e0ca04233fe5a3b}\label{main_8cpp_af52bf9a4611fc2093e0ca04233fe5a3b}} 
+\index{main.cpp@{main.cpp}!uTurn@{uTurn}}
+\index{uTurn@{uTurn}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{uTurn()}{uTurn()}}
+{\footnotesize\ttfamily void u\+Turn (\begin{DoxyParamCaption}\item[{char}]{t\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{char}]{c\+Grid\mbox{[}$\,$\mbox{]}\mbox{[}\+C\+O\+L\+S\mbox{]},  }\item[{\mbox{\hyperlink{class_usr_ships}{Usr\+Ships}} \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Definition at line 315 of file main.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}\label{main_8cpp_abfdc2552f8ab882b4380b2a56cdff54f}} 
+\index{main.cpp@{main.cpp}!COLS@{COLS}}
+\index{COLS@{COLS}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{COLS}{COLS}}
+{\footnotesize\ttfamily const int C\+O\+LS = 11}
+
+
+
+Definition at line 28 of file main.\+cpp.
+
